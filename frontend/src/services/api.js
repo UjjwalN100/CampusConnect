@@ -1,4 +1,4 @@
-﻿const API_URL = 'http://192.168.31.116:5000/api';
+﻿const API_URL = 'https://campusconnect-qpk0.onrender.com'
 export const fetchApplications = () => fetch(API_URL + '/applications').then(res => res.json());
 export const fetchDocuments = (id) => fetch(API_URL + '/documents/' + id).then(res => res.json());
 export const fetchNotices = () => fetch(API_URL + '/notices').then(res => res.json());
